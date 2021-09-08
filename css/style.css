@@ -3,3 +3,8 @@
 /* site style */
 
 @import url(myStayles/header.css);
+@import url(myStayles/menu.css);
+
+body {
+    background: #ecf0f1;
+}
