@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'IranSansWebFaNum';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../assets/fonts/iransansfanum/IRANSansWebFaNum.eot");
+    src: url("../assets/fonts/iransansfanum/IRANSansWebFaNum.eot?#iefix") format('embedded-opentype'),
+    url("../assets/fonts/iransansfanum/IRANSansWebFaNum.woff2") format('woff2'),
+    url("../assets/fonts/iransansfanum/IRANSansWebFaNum.woff") format('woff'),
+    url("../assets/fonts/iransansfanum/IRANSansWebFaNum.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/Vazir/Vazir.eot');
+    src: url('../assets/fonts/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Vazir/Vazir.woff2') format('woff2'),
+    url('../assets/fonts/Vazir/Vazir.woff') format('woff'),
+    url('../assets/fonts/Vazir/Vazir.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Vazir-FD;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/Vazir/Vazir-FD.woff');
+    src: url('../assets/fonts/Vazir/Vazir.woff') format('woff');
+}
+
+* {
+    font-family: IranSansWebFaNum, Vazir-FD, Vazir, serif;
+}
