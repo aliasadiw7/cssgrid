@@ -27,6 +27,7 @@ a{
 
 body {
 	direction: rtl;
+	overflow-X: hidden;
 }
 
 details > summary::marker {
