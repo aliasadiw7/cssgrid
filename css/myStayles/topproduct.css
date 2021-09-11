@@ -1,31 +1,31 @@
-.selling-item img {
+.selling-item img, .recent-item img {
     width: 100%;
     border-radius: 15px;
 }
 
-.best-selling {
+.best-selling, .recent-selling {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 10px;
     margin: 25px;
 }
 
-.selling-item {
+.selling-item, .recent-item {
     background: white;
     border-radius: 15px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
     padding: 10px;
 }
 
-.selling-item h4, .selling-item h5, .selling-item a {
+.selling-item h4, .selling-item h5, .selling-item a,.recent-item h4, .recent-item h5, .recent-item a {
     text-align: center;
 }
 
-.selling-item h4 {
+.selling-item h4, .recent-item h4 {
     color: #e67e22;
 }
 
-.selling-item a {
+.selling-item a, .recent-item a {
     color: #fff;
     display: block;
     padding: 8px;
@@ -47,12 +47,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .best-selling {
+    .best-selling, .recent-selling {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 
-    .selling-item h5 {
+    .selling-item h5, .recent-item h5 {
         font-size: 12px;
     }
 
