@@ -6,6 +6,7 @@
 @import url(myStayles/menu.css);
 @import url(myStayles/container.css);
 @import url(myStayles/topproduct.css);
+@import url(myStayles/footer.css);
 
 body {
     background: #ecf0f1;
