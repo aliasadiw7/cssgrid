@@ -8,6 +8,7 @@
 @import url(myStayles/topproduct.css);
 @import url(myStayles/footer.css);
 @import url(myStayles/shop.css);
+@import url(myStayles/blog.css);
 
 body {
     background: #ecf0f1;
