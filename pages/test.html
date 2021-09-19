@@ -1,94 +1,75 @@
 <style>
-    .item-sidebar {
-        background-color: #ffffff;
-        box-shadow: 2px 2px 20px #d5d5d5;
-        border-radius: 10px;
-        padding: 20px;
-        background-image: url(../../img/sidebar-ribbon.png);
-        background-position: top right;
-        background-repeat: no-repeat;
-    }
-
-    .item-sidebar .header-icon-blog {
-        color: #ff5e5e;
-        box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
-        padding: 12px 10px;
-        border-radius: 50%;
-        background: #ffffff;
-        margin-left: 10px;
-    }
-
-    .item-sidebar h1 {
-        display: inline;
-        color: #404040;
-    }
-
-
-    .item-sidebar p {
-        color: #888888;
-        text-align: justify;
-        margin: 30px 0px 0px;
-    }
-
-    .item-sidebar a {
-        background: #3c3e46;
-        color: #ffffff;
-        padding: 6px 20px;
-        border-radius: 10px;
-    }
-
-    .item-sidebar ul {
-        margin: 30px 20px 0px;
-    }
-
-    .item-sidebar li {
-        list-style: disc !important;
-        color: #444444;
-    }
-
-    .search-box-blog {
-        margin-top: 20px;
+    .comment {
         display: grid;
-        grid-template-columns: 1fr 0fr;
-        align-items: center;
+        grid-template-columns: repeat( 3 , 1fr );
+        grid-gap: 10PX;
     }
 
-    .search-box-blog input {
-        padding: 5px;
-        border-radius: 0px 10px 10px 0px;
-        border-left: none;
-        border-right: dodgerblue 2px solid;
-        border-top: dodgerblue 2px solid;
-        border-bottom: dodgerblue 2px solid;
-        background: #EFEFEF;
-        box-shadow: 2px 2px 5px rgba(0 , 0 , 0 , 0.2);
-        width: 100%;
-
-    }
-
-    .search-box-blog i {
-        background: #3c3e46;
+    .comment textarea {
+        background-color: #eeeeee;
+        border: #e1e1e1 solid 5px;
         padding: 10px;
-        border-radius: 10px 0px 0px 10px;
-        color: #ffffff;
+        resize: vertical;
+        border-radius: 12px;
+        grid-column: 1 / 4;
     }
+
+    .comment textarea:focus {
+        background-color: #ffffff;
+        border: dodgerblue solid 5px;
+        outline: none;
+        transition: all ease-in-out .3s;
+    }
+
+    .comment input {
+        background-color: #eeeeee;
+        border: #e1e1e1 solid 5px;
+        padding: 10px;
+        resize: vertical;
+        border-radius: 12px;
+    }
+
+    .comment input:focus {
+        background-color: #ffffff;
+        border: dodgerblue solid 5px;
+        outline: none;
+        transition: all ease-in-out .3s;
+    }
+
+    .comment button {
+        background-color: crimson;
+        border-radius: 12px;
+        padding: 10px;
+        color: #ffffff;
+        border: none;
+        outline: none;
+        grid-column: 1 / 4;
+    }
+
+
+
 
     @media only screen and (max-width: 768px) {
-        .weblog {
-            grid-template-columns: 100%;
-            padding: 10px;
-        }
-        .item-weblog img {
-            width: 100%;
-        }
-        .side-bar {
-            margin-top: 30px;
-            margin-right: 0px;
+        .suggested-product-advice h1 {
+            font-size: 18px;
         }
 
-        .item-weblog p {
-            font-size: 16px;
+        .comment {
+            grid-template-columns: 1fr;
         }
 
+        .comment textarea {
+            grid-column: unset;
+        }
+
+        .comment button {
+            grid-column: unset;
+        }
+        .suggested-product-advice-child {
+            grid-template-columns: repeat( auto-fill , minmax( 200px , 1fr ));
+        }
+        .fast-discount {
+            font-size: 13px;
+        }
     }
 </style>
