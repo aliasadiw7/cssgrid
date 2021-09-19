@@ -28,20 +28,24 @@
     color: #fff;
     margin-right: 5px;
 }
-.description-footer p{
+
+.description-footer p {
     text-align: justify;
     color: #afafaf;
     font-size: 14px;
 }
+
 .enamad-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
 }
+
 .enamad-box img {
     margin: auto;
     width: 100%;
 }
+
 .enamad-box .my-order {
     background: rgba(255, 255, 255, 0.15);
     color: #d5d6d7;
@@ -53,11 +57,13 @@
     grid-row: 2 / 3;
     height: 30px;
 }
+
 .description-footer-child {
     display: grid;
     grid-template-columns: 100%;
     grid-row-gap: 10px;
 }
+
 .description-footer-child-info {
     display: grid;
     grid-template-columns: 0fr 1fr;
@@ -65,18 +71,22 @@
     grid-column-gap: 5px;
     color: #afafaf;
 }
+
 .description-footer-child-info img {
     width: 30px;
 }
+
 .footer-menu-res {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 @media only screen and (max-width: 768px) {
     .footer-child {
         grid-template-columns: 1fr;
         padding: 20px;
     }
+
     .footer h1 {
         font-size: 16px;
         margin: 0 0 15px;

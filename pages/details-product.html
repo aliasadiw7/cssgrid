@@ -29,8 +29,8 @@
                         <img src="../assets/img/user.png" alt="">
                     </summary>
                     <div>
-                        <li><a href="#"><i class="fa fa-user-circle"></i> ورود </a></li>
-                        <li><a href="#"><i class="fa fa-sign-in"></i> ثبت نام </a></li>
+                        <li><a href="../pages/login.html "><i class="fa fa-user-circle"></i> ورود </a></li>
+                        <li><a href="../pages/signup.html"><i class="fa fa-sign-in"></i> ثبت نام </a></li>
                     </div>
                 </details>
             </div>
@@ -230,14 +230,14 @@
                 </div>
             </div>
             <div id="tab3" class="tab-content">
-            <div class="object comment">
-                <textarea rows="10" placeholder="نظر شما !"></textarea>
-                <input type="text" placeholder="نام شما">
-                <input type="email" placeholder="ایمیل">
-                <input type="number" min="1" max="5" value="5">
-                <button> ارسال نظر</button>
+                <div class="object comment">
+                    <textarea rows="10" placeholder="نظر شما !"></textarea>
+                    <input type="text" placeholder="نام شما">
+                    <input type="email" placeholder="ایمیل">
+                    <input type="number" min="1" max="5" value="5">
+                    <button> ارسال نظر</button>
+                </div>
             </div>
-        </div>
         </div>
     </div>
 </div>
@@ -290,6 +290,7 @@
     function myfun(src) {
         document.getElementById('img1').src = src
     }
+
     function tabs(e, name) {
         let tab_btn = document.getElementsByClassName('tab-btn');
         let tab_content = document.getElementsByClassName('tab-content');

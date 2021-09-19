@@ -106,7 +106,7 @@
 
 .product-sells {
     background: #3c3e46;
-    box-shadow: 0 5px 20px rgba(60,62,70,0.3) !important;
+    box-shadow: 0 5px 20px rgba(60, 62, 70, 0.3) !important;
     padding: 10px;
     border-radius: 10px;
     color: #ffffff;
@@ -125,20 +125,24 @@
 .suggestion-product {
 
 }
+
 .h1-rec {
     color: #46484f;
     font-size: 25px;
     margin: 15px 0 20px;
 }
+
 .more-info {
     padding: 0px 20px;
 }
+
 .object p {
     color: #888888;
     font-size: 18px;
     text-align: justify;
 }
-.object h1{
+
+.object h1 {
     color: #555555;
     font-size: 25px;
     margin: 20px 0px 8px;
@@ -147,6 +151,7 @@
 .object img {
     width: 100%;
 }
+
 .object-child-text {
     background: #eeeeee;
     color: #888888;
@@ -154,7 +159,8 @@
     font-size: 20px;
     text-align: justify;
 }
-.tab-btn{
+
+.tab-btn {
     width: 33.3333333%;
     float: right;
     border: none;
@@ -164,35 +170,38 @@
     background-color: transparent;
     color: #979797;
 }
-.active{
+
+.active {
     border-bottom: #e67e22 solid 5px;
     color: #000000;
     transition: all ease-in-out 0.3s;
 }
 
-.content{
+.content {
     padding: 10px 0px;
     display: inline-block;
     width: 100%;
 }
 
-.tab-content{
+.tab-content {
     animation: fading 1s;
 }
 
 @keyframes fading {
-    0%{
+    0% {
         opacity: 0;
     }
 
-    100%{
+    100% {
         opacity: 1;
     }
 }
+
 .focus-information {
     display: grid;
     grid-template-columns: 30% 70%;
 }
+
 .focus-information-child span {
     display: block;
     color: #000000;
@@ -203,11 +212,13 @@
     background-color: #979797;
     color: #fff;
 }
+
 .comment {
     display: grid;
     grid-template-columns:repeat(3, 1fr);
     grid-gap: 10px;
 }
+
 .comment textarea {
     background-color: #eeeeee;
     border: #e1e1e1 solid 5px;
@@ -223,6 +234,7 @@
     outline: none;
     transition: all ease-in-out 0.3s;
 }
+
 .comment input {
     background-color: #eeeeee;
     border: #e1e1e1 solid 5px;
@@ -247,25 +259,30 @@
     outline: none;
     grid-column: 1 / 4;
 }
+
 @media only screen and (max-width: 768px) {
     .base-details-product {
         grid-template-columns: 100%;
         padding: 10px;
         grid-column-gap: 20px;
     }
+
     .more-details {
         grid-column: unset;
         grid-row: unset;
         padding: 10px;
     }
+
     .set-product-button {
         grid-template-columns: 1fr;
         font-size: 12px;
     }
+
     .favorite-product {
         grid-column: unset;
         grid-row: unset;
     }
+
     .comment {
         grid-template-columns: 1fr;
     }
