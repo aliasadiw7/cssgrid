@@ -1,5 +1,5 @@
 # cssgrid
-CSS Grid '\n'
-simple page with html css \n
-Live demo: \n
+CSS Grid 
+simple page with html css 
+Live demo: 
 https://cssgrid-d5b59.web.app
